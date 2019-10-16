@@ -1,6 +1,6 @@
 {% set name = "dask-xgboost" %}
-{% set version = "0.1.7" %}
-{% set sha256 = "c4eb7989e0b4bcab956c5ab5f89c3419016615ad1ca8f6596ca471e402aae43b" %}
+{% set version = "0.1.9" %}
+{% set sha256 = "6faeeed044112151e28770b69fb1ad06b026597726ce8dc185fd3ae45363d0c0" %}
 
 package:
   name: {{ name|lower }}
