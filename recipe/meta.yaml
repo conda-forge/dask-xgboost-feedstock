@@ -1,6 +1,6 @@
 {% set name = "dask-xgboost" %}
-{% set version = "0.1.10" %}
-{% set sha256 = "454c47ccf64315d35beeca32c7cedf20d8a8d42471d5e6ce0c51f4af0a6e021e" %}
+{% set version = "0.1.11" %}
+{% set sha256 = "3fbe1bf4344dc74edfbe9f928c7e3e6acc26dc57cefd8da8ae56a15469c6941c" %}
 
 package:
   name: {{ name|lower }}
@@ -35,13 +35,13 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Launch, train, and test with XGBoost from Dask'
+  summary: Launch, train, and test with XGBoost from Dask
 
   description: |
-      dask-xgboost is a small project to facilitate launching the XGBoost
-      library for machine learning on a Dask cluster.  It also contains
-      utilities to transfer data between dask collections like dataframes and
-      arrays into a distributed XGBoost system.
+    dask-xgboost is a small project to facilitate launching the XGBoost
+    library for machine learning on a Dask cluster.  It also contains
+    utilities to transfer data between dask collections like dataframes and
+    arrays into a distributed XGBoost system.
   dev_url: https://github.com/dask/dask-xgboost
 
 extra:
