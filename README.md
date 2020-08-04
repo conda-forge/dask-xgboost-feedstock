@@ -5,7 +5,7 @@ Home: http://github.com/dask/dask-xgboost
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Launch, train, and test with XGBoost from Dask
 
