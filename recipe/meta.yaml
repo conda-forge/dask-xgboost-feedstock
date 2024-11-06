@@ -1,6 +1,6 @@
 {% set name = "dask-xgboost" %}
-{% set version = "0.1.11" %}
-{% set sha256 = "3fbe1bf4344dc74edfbe9f928c7e3e6acc26dc57cefd8da8ae56a15469c6941c" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "6d9c491dc4099f74a0df66c4d439d296c0f1fba97009fe93e21b2350f295b4ca" %}
 
 package:
   name: {{ name|lower }}
@@ -12,12 +12,12 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   noarch: python
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
